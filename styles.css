@@ -101,3 +101,38 @@
   letter-spacing: 3px;
   box-shadow: 0px 5px 24px -4px #3F8E00;
 }
+
+.alliances {
+  margin-top: 57px;
+  width: 888px;
+  margin: auto;
+}
+
+.alliances_header p {
+  color: #fff;
+  font-family: ibm plex mono;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.alliances_logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alliances_logos a {
+  width: 160px;
+  height: 60px;
+  border: 1px solid #1b1b1b;
+  background: #080808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+}
+
+.alliances_logos a:hover {
+  transform: scale(1.2);
+  background: #9C9C9C;
+}
