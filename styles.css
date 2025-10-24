@@ -199,6 +199,78 @@ margin-top: 35px;
 }
 
 
+.Case_Study_azul {
+margin-top: 100px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 45px;
+  flex-direction: row-reverse;
+} 
+
+.Case_Study_categorya{
+  font-family: ibm plex mono;
+  color: #000aff;
+  font-weight: bold;
+background-color:#D0E6FF ;
+text-decoration: none;
+width: 76px;
+border-radius: 6px;
+display: flex;   
+}
+
+.Case_Study_botona{
+  font-family: ibm plex mono;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+ background-color: #000aff;
+  width: 189px;
+   height: 40px;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+    border-radius: 4px;
+margin-top: 35px;     
+}
+
+.Case_Study_verde {
+margin-top: 100px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 45px;
+} 
+
+.Case_Study_categoryv{
+  font-family: ibm plex mono;
+  color: #2AB090;
+  font-weight: bold;
+background-color:#E0FFF8 ;
+text-decoration: none;
+width: 76px;
+border-radius: 6px;
+display: flex;  
+}
+
+.Case_Study_botonv{
+  font-family: ibm plex mono;
+color: #fff;
+font-weight: bold;
+text-decoration: none;
+ background-color: #2AB090;
+  width: 189px;
+   height: 40px;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+    border-radius: 4px;
+margin-top: 35px; 
+margin-bottom: 85px;    
+}
+
+
+
 
 
 
