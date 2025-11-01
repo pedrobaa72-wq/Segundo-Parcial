@@ -269,7 +269,15 @@ margin-top: 35px;
 margin-bottom: 85px;    
 }
 
+.recent_work_header {
+text-align: center;
+font-family: raleway;
 
+}
+
+.work_name {
+  display: flex;
+}
 
 
 
