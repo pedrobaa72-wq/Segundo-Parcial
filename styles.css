@@ -451,7 +451,73 @@ font-size: 14px;
 }
 
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (min-width: 767px) and (max-width: 1200px) {
+ .hero {
+    height: auto;
+  }
+
+  .alliances,
+  .cases_studies_header {
+    width: 100%;
+  }
+
+  .menu{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+.menu ul{
+  gap: 10px;
+}
+
+  .menu ul a{
+    padding: 25px 10px;
+  }
+
+  .principal{
+    width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .principal_description a{
+    padding: 21px 45px;
+  }
+
+  .alliances_header{
+    margin-left: 2.5%;
+  }
+
+  .alliances_logos{
+    width: 95%;
+    justify-self: center;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 20px;
+
+  }
+
+  .case_study{
+    width: 95%;
+    justify-self: center;
+  }
+
+  .recent_work_images{
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-between;
+  justify-self: center;
+  }
+
+  .recent_work_images img{
+  width: 45%;
+  }
+
+  .work_name_description{
+  margin-left: 1%;
+  margin-right: 1%;
+  justify-content: space-around;
+  justify-self: center;
+  }
 
 }
 
