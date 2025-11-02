@@ -394,14 +394,16 @@ font-size: 14px;
 }
 
 .input1{
+  background-color: #F8F8F8;
   width: 350px;
   height: 40px;
-    border: solid 1px;
+  border: solid 1px;
   border-color: #D8D8D8;
   border-radius: 4px;
 }
 
 .input2{
+  background-color: #F8F8F8;
   width: 342px;
   border: none;
   height: 40px;
@@ -448,3 +450,133 @@ font-size: 14px;
   padding-top: 26px;
 }
 
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+  .hero {
+    height: auto;
+  }
+
+  .alliances,
+  .principal,
+  .cases_studies_header,
+  .case_study {
+    width: 100%;
+  }
+
+  .menu {
+    width: 100%;
+    overflow-x: hidden;
+    padding: 10px;
+    height: auto;
+    display: block;
+  }
+
+  .menu ul {
+    gap: 10px;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu ul a {
+    padding: 16px 5px;
+  }
+
+  .menu .icons {
+    justify-content: center;
+  }
+
+  .principal {
+    display: block;
+  }
+
+  .case_study {
+    display: block;
+  }
+
+  .case_study_image img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .alliances_logos {
+    flex-direction: column;
+  }
+
+  .principal {
+    margin-top: 30px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .principal_description {
+    padding-right: 0;
+  }
+
+  .principal_description h1 {
+    font-size: 40px;
+  }
+
+  .principal_description a {
+    margin: 20px auto;
+  }
+
+  .alliances {
+    padding: 0 15px;
+  }
+
+  .alliances_logos a {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .cases_studies {
+    padding: 50px 15px;
+  }
+
+  .cases_studies_header br {
+    display: none;
+  }
+
+  .case_study_image {
+    margin-top: 20px;
+}
+
+
+
+  .recent_work_images img{
+   display: none;
+  }
+
+  .work_name_description{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .formulario, .input1, .cajatruco, footer a{
+    width: 300px;
+  }
+
+  .input2{
+  width: 299px;
+  margin-top: 1px;
+  }
+
+  .footer a{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 300px;
+  }
+
+  .footer a img{
+    padding-left: 3px;
+  }
+}
