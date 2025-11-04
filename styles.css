@@ -404,24 +404,17 @@ font-size: 14px;
 
 .input2{
   background-color: #F8F8F8;
-  width: 342px;
-  border: none;
-  height: 40px;
-}
-
-::placeholder{
-  font-size: 12px;
-  font-family: ibm plex mono;
-}
-
-.cajatruco{
-  background-color: #F8F8F8;
   display: flexbox;
   width: 350px;
   height: 120px;
   border: solid 1px;
   border-color: #D8D8D8;
   border-radius: 4px;
+}
+
+::placeholder{
+  font-size: 12px;
+  font-family: ibm plex mono;
 }
 
 .footer a{
@@ -626,7 +619,7 @@ font-size: 14px;
     margin-left: 0px;
   }
 
-  .formulario, .input1, .cajatruco, footer a{
+  .formulario, .input1, .footer a{
     width: 300px;
   }
 
