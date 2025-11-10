@@ -382,7 +382,7 @@ font-size: 34px;
 .footer p{
 color: #9C9C9C;
 font-family: ibm plex mono;
-font-size: 14px;
+font-size: 12px;
 }
 
 .formulario {
@@ -419,6 +419,8 @@ font-size: 14px;
 ::placeholder{
   font-size: 12px;
   font-family: ibm plex mono;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 
 .footer a{
@@ -710,3 +712,4 @@ font-size: 14px;
   .footer a img{
     padding-left: 3px;
   }
+}
