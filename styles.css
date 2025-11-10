@@ -586,6 +586,12 @@ font-size: 12px;
   justify-self: center;
   }
 
+    .testimonials-grid{
+    grid-template-columns: none;
+    width: 50%;
+    margin: auto;
+  }
+
 }
 
 @media (min-width: 320px) and (max-width: 767px){
@@ -711,5 +717,11 @@ font-size: 12px;
 
   .footer a img{
     padding-left: 3px;
+  }
+
+  .testimonials-grid{
+    grid-template-columns: none;
+    width: 80%;
+    margin: auto;
   }
 }
